@@ -17,13 +17,15 @@ const Contact = () => {
     
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch("https://myportfolio-backend-p8l2.onrender.com/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
       });
+      // console.log(response,"ttttttttttt");
+      
 
       if (response.ok) {
         alert("Message sent successfully!");
