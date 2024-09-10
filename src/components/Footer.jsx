@@ -8,7 +8,7 @@ const Footer = () => {
             <h3 className='text-2xl text-gray-200 font-semibold'>R.Singh</h3>
             <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
                 <a href="https://github.com/rahul8073"><FaGithubSquare /></a>
-                <a href="#"><FaInstagram /></a>
+                <a href="https://www.instagram.com/royalrajputana._09?igsh=dDFscmc4NnBmc204"><FaInstagram /></a>
             </div>
 
         </div>
