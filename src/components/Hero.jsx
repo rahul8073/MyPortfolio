@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../assets/profpic.png";
+import profilepic from "../assets/mypic.webp";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import resume from'../assets/RahulSingh.pdf'
@@ -106,7 +106,7 @@ const Hero = () => {
 
             <motion.img 
                 src={profilepic}
-                className="w-[300px] md:w-[450px]"
+                className="w-[300px] md:w-[450px] rounded-full"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
