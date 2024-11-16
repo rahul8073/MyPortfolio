@@ -46,10 +46,11 @@ const Contact = () => {
                 <div className="text-gray-300 my-3">
                     <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                        eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                        ratione quibusdam doloribus pariatur consequuntur sint.
-                        Reprehenderit cupiditate possimus facere quasi voluptatem?
+                    I am a passionate software developer with expertise in creating dynamic and user-friendly applications. My work spans across web and mobile platforms, focusing on delivering high-quality, innovative solutions that solve real-world problems. <br />
+                    I thrive on turning ideas into reality, ensuring every project reflects a perfect blend of creativity and functionality. Whether it’s a complex backend system or a sleek frontend interface, I approach every task with dedication and attention to detail.
+                    <br />
+                    When I'm not coding, I enjoy exploring new technologies and refining my skills to stay ahead in this ever-evolving industry. Let’s collaborate and create something amazing together!
+
                     </p>
                 </div>
 
