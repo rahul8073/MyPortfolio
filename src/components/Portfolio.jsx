@@ -22,7 +22,7 @@ const projects = [
     title: "Dynamo Chess",
     description: "UI for frontend development using React.",
     links: {
-      site: "#",
+      site: "https://advancedchess.in/",
       github: "#",
     },
   },
