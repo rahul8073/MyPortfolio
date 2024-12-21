@@ -9,8 +9,13 @@ import {
   DiNodejsSmall,
   DiMongodb,
   DiGithubBadge,
+  DiAws,
 } from "react-icons/di"
 import Reveal from "./Reveal"
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
+import { TbBrandReactNative } from "react-icons/tb"
+import { SiAwsamplify, SiExpress } from "react-icons/si"
+import { FcNext } from "react-icons/fc"
 
 const skills = [
     {
@@ -20,8 +25,10 @@ const skills = [
         { name: 'CSS', icon: <DiCss3 className='text-blue-600' /> },
         { name: 'Sass', icon: <DiSass className='text-pink-600' /> },
         { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
+        { name: 'Tailwind', icon: <RiTailwindCssFill className='text-purple-600' /> },
         { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'React Native', icon: <TbBrandReactNative className='text-blue-500' /> },
       ],
     },
     {
@@ -30,6 +37,9 @@ const skills = [
         { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
         { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'Express', icon: <SiExpress className='text-gray-100' /> },
+        { name: 'Next', icon: <RiNextjsFill className='text-gray-100' /> },
+        { name: 'AWS', icon: <SiAwsamplify className='text-gray-100' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
       ],
     },

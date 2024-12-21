@@ -13,10 +13,12 @@ import {
   DiCss3,
   DiHtml5,
   DiJavascript1,
+  DiMongodb,
   DiNodejsSmall,
   DiReact,
 } from "react-icons/di";
 import { motion } from "framer-motion";
+import { SiExpress } from "react-icons/si";
 
 
 const Hero = () => {
@@ -125,6 +127,8 @@ const Hero = () => {
             <DiHtml5 className="text-orange-600 mx-2" />
             <DiCss3 className="text-blue-600 mx-2" />
             <DiJavascript1 className="text-yellow-500 mx-2" />
+            <DiMongodb className="text-green-500 mx-2" />
+            <SiExpress className="text-gray-100 mx-2" />
             <DiReact className="text-blue-500 mx-2" />
             <DiNodejsSmall className="text-green-500 mx-2" />
 

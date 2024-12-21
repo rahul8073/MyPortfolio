@@ -5,7 +5,7 @@ import Reveal from './Reveal';
 const experiences = [
   {
     company: 'Fusion Techlab',
-    period: 'Feb, 2024 - Present',
+    period: 'Jan, 2024 - Present',
     description: [
       'Developed web applications using HTML, CSS, and JavaScript.',
       'Created unit tests for full-stack web application components.',

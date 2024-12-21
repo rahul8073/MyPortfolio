@@ -1,5 +1,5 @@
 import React from 'react';
-import project1 from "../assets/adminpanel.png"
+import project1 from "../assets/project2.png"
 import project2 from "../assets/chess.png"
 import project4 from "../assets/project4.jpg"
 import project5 from "../assets/sharemarket2.png"
@@ -22,38 +22,38 @@ const projects = [
     title: "Dynamo Chess",
     description: "UI for frontend development using React.",
     links: {
-      site: "https://advancedchess.in/",
+      site: "https://dynamochess.in/",
       github: "#",
     },
   },
   {
     img: project1,
-    title: "Admin Panel",
+    title: "kaeinyonne",
     description: "A fullstack application built with Node.js and MongoDB.",
     links: {
-      site: "#",
+      site: "https://www.kaeinyonne.com/",
       github: "#",
     },
   },
-  {
-    img: project5,
-    title: "Share Market",
-    description: "An Share-market platform with various features.",
-    links: {
-      site: "#",
-      github: "#",
-    },
-  },
+  // {
+  //   img: project5,
+  //   title: "Share Market",
+  //   description: "An Share-market platform with various features.",
+  //   links: {
+  //     site: "#",
+  //     github: "#",
+  //   },
+  // },
 
-  {
-    img: project6,
-    title: "Restorant Desktop web app",
-    description: "Restorant mangament system .",
-    links: {
-      site: "#",
-      github: "#",
-    },
-  },
+  // {
+  //   img: project6,
+  //   title: "Restorant Desktop web app",
+  //   description: "Restorant mangament system .",
+  //   links: {
+  //     site: "#",
+  //     github: "#",
+  //   },
+  // },
 ]
 
 const Portfolio = () => {
@@ -78,13 +78,13 @@ const Portfolio = () => {
                 <a href={project.links.site}
                   className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
-                  View Site
+                {index===0?'Download Apk':'View Site'}
                 </a>
-                <a href={project.links.github}
+                {/* <a href={project.links.github}
                   className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
                   <AiOutlineGithub />
-                </a>
+                </a> */}
 
               </div>
 
